@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Buenard:wght@400;700&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+}
+p {
+    font-family: "Buenard", serif;
+    font-size: 22px;
+}
+.row {
+    width: 100%;
+}
+.container {
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+header { 
+    background-color: #0B6BCB;
+    padding: 20px;
+}
+form {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+input, select {
+    padding: 7px 10px;
+}   
+
+.passagem {
+    margin-top: 30px;
+}
